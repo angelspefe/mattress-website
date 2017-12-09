@@ -3,7 +3,8 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border: 0px solid rgb(220,220,220);
 }
 
@@ -99,9 +100,8 @@ footer h2 {
 .bg-pug,
 .bg-bed {
   background-size:cover;
-  min-height:100vh;
-  background-position: center;
-  min-height: 30vh;
+  min-height:40vh;
+  background-position: 50% 30%;
 }
 
 .bg-pug {
@@ -150,12 +150,11 @@ footer h2 {
 
 form input,
 form label,
-form textarea,
-form placeholder {
+form textarea {
   font-family: 'Montserrat', sans-serif;
   font-weight:300;
   font-size:0.8em;
-  width:80%;
+  width:100%;
   border: 0px;
   border-radius: 3px;
   padding:0.5rem;
@@ -197,3 +196,72 @@ form input[type="submit"] {
   padding-bottom: 0rem;
   display: block;
 }
+
+/*----------- Media Queries -----------*/
+
+@media(max-width:768px){
+
+.padded {
+  padding:10%;
+}
+
+.mob-no-padding-top {
+  padding:0% 10% 10% 10%;
+}
+
+.mob-reverse {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.small-banner {
+  background-image:none;
+  background-color:#ffbe00;
+  min-height: 20vh;
+}
+
+.small-banner p {
+  font-size: 1rem;
+}
+
+.small-banner h2 {
+  font-size: 1.7rem;
+  padding-bottom:0;
+}
+
+.quote p {
+  font-size:1.2em;
+}
+
+.quote-mark {
+  font-size:3em;
+}
+
+.author {
+  font-size:1em;
+}
+
+form input,
+form label,
+form textarea,
+form input[type="submit"] {
+  width:100%;
+}
+
+@media(max-width:500px){
+
+  h1 {
+    font-size:2rem;
+  }
+
+  .banner h2 {
+    font-size: 1.2rem;
+  }
+  .banner {
+    min-height:0;
+    padding: 15vh 5%;
+  }
+
+} /* this closes the media query*/
