@@ -16,25 +16,27 @@
 
 /*----------- Typography -----------*/
 
+body {
+  color:#2c2c2c;
+  font-weight:300;
+}
+
 p, h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
   padding-bottom:1rem;
   line-height: 1.5;
 }
 
-body {
-  color:#2c2c2c;
-  font-weight:300;
+h1, h2 {
+  font-weight:900;
 }
 
 h1 {
-  font-weight:900;
   font-size:4rem;
   padding-bottom:0rem;
 }
 
 h2 {
-  font-weight:900;
   font-size:1.8em;
 }
 
@@ -47,15 +49,13 @@ span {
   background-color: #192B37;
 }
 
+.banner {
+  color:#fff;
+}
+
 .banner,
 .small-banner {
   text-align:center;
-  line-height: 1;
-  padding-bottom:0rem;
-}
-
-.banner {
-  color:#fff;
 }
 
 .banner h2 {
@@ -68,13 +68,13 @@ span {
 }
 
 .small-banner h2 {
-  font-weight:900;
   font-size:3.2em;
 }
 
 .small-banner p {
   font-weight:400;
   font-size:1.5em;
+  padding-bottom:0rem;
 }
 
 .small-banner span {
@@ -82,12 +82,9 @@ span {
 }
 
 footer h2 {
-  font-weight:900;
   font-size:3em;
   line-height: 1;
 }
-
-
 
 /*----------- Banners & Background Images -----------*/
 
@@ -108,7 +105,7 @@ footer h2 {
 }
 
 .bg-pug {
-background-image: url('images/pug.jpg');
+  background-image: url('images/pug.jpg');
 }
 
 .bg-bed {
@@ -119,10 +116,8 @@ background-image: url('images/pug.jpg');
   background-image: url('images/small-banner.jpg');
   background-size:cover;
   background-position: center;
-  min-height: 80vh;
+  min-height: 70vh;
 }
-
-
 
 /*----------- Testimonial Section -----------*/
 
@@ -139,6 +134,7 @@ background-image: url('images/pug.jpg');
 .quote-mark {
   font-size:6em;
   color: #95989A;
+  font-family: 'Playfair Display', serif;
 }
 
 .author {
@@ -147,10 +143,7 @@ background-image: url('images/pug.jpg');
   text-align:right;
 }
 
-
 /*----------- Footer -----------*/
-
-
 
 
 /*----------- Contact Form -----------*/

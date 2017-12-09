@@ -3,7 +3,8 @@
 <head>
   <title> Sleep Like a Baby </title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.6.1/gridlex.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:900">
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
@@ -43,12 +44,12 @@
 
     <!-- - - - - - - - - quote - - - - - - - - -->
   <section class="grid quote">
-    <div class="col-2"><span class="quote-mark">"</span></div>
+    <div class="col-2"><span class="quote-mark">&ldquo;</span></div>
     <div class="col-8">
       <p>I’ve never experienced sleep like this. Omg I really love this mattress I want to buy one for every member of my family and one for my dog too.</p>
       <p class="author">-A very happy customer</p>
     </div>
-    <div class="col-2"><span class="quote-mark">"</span></div>
+    <div class="col-2"><span class="quote-mark">&rdquo;</span></div>
   </section>
 
   <!-- - - - - - - - - FOOTER - - - - - - - - -->
@@ -58,9 +59,13 @@
       <h2>let's <span>connect</span></h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
     </div>
-    <div class="col-6">
-    <form>
-    </form>
+    <div class="col-6 padded">
+      <form>
+        <input type="text" name="full-name" id="full-name" placeholder="Your Name">
+        <input type="email" name="email" id="email" placeholder="Your Email">
+        <textarea name="comment" id="comment" placeholder="Tell us what you want to say..."></textarea>
+        <input type="submit" name="submit" value="Submit">
+      </form>
     </div>
   </footer>
 </html>
