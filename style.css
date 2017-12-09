@@ -32,7 +32,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size:6vw;
+  font-size:6vw; /* we use vw to set font-size in banners so they adapt to screen */
   padding-bottom:0rem;
 }
 
@@ -60,7 +60,7 @@ span {
 
 .banner h2 {
   font-weight:400;
-  font-size:3vw;
+  font-size:3vw; /* we use vw to set font-size in banners so they adapt to screen */
 }
 
 .banner span {
@@ -68,12 +68,12 @@ span {
 }
 
 .small-banner h2 {
-  font-size:3.2em;
+  font-size:4vw; /* we use vw to set font-size in banners so they adapt to screen */
 }
 
 .small-banner p {
   font-weight:400;
-  font-size:1.5em;
+  font-size:2vw; /* we use vw to set font-size in banners so they adapt to screen */
   padding-bottom:0rem;
 }
 
