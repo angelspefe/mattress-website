@@ -150,15 +150,21 @@ footer h2 {
 
 form input,
 form label,
-form textarea {
+form textarea,
+form input[type="submit"] {
   font-family: 'Montserrat', sans-serif;
-  font-weight:300;
-  font-size:0.8em;
   width:100%;
   border: 0px;
   border-radius: 3px;
   padding:0.5rem;
   margin:0.5rem 0;
+}
+
+form input,
+form label,
+form textarea {
+  font-weight:300;
+  font-size:0.8em;
 }
 
 form textarea {
@@ -177,15 +183,9 @@ form input[type="radio"] {
 form input[type="submit"] {
   background-color: #ffbe00;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   font-size: 0.9em;
-  width: 80%;
-  border: 0px;
-  border-radius: 3px;
-  padding: 0.5rem;
-  margin: 0.5rem 0;
 }
 
 .blockupdates {
@@ -249,19 +249,21 @@ form textarea,
 form input[type="submit"] {
   width:100%;
 }
+}/* this closes the media query*/
 
 @media(max-width:500px){
 
-  h1 {
-    font-size:2rem;
-  }
+.banner {
+  min-height:0;
+  padding: 15vh 5%;
+}
 
-  .banner h2 {
-    font-size: 1.2rem;
-  }
-  .banner {
-    min-height:0;
-    padding: 15vh 5%;
-  }
+h1 {
+  font-size:2rem;
+}
+
+.banner h2 {
+  font-size: 1.2rem;
+}
 
 } /* this closes the media query*/
