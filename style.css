@@ -1,0 +1,156 @@
+/*----------- CSS Reset -----------*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0px solid rgb(220,220,220);
+}
+
+/*----------- Universal Styles -----------*/
+/* Eg padding on your sections, utility classes, etc. */
+
+.padded {
+  padding: 8%;
+}
+
+/*----------- Typography -----------*/
+
+p, h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom:1rem;
+  line-height: 1.5;
+}
+
+body {
+  color:#2c2c2c;
+  font-weight:300;
+}
+
+h1 {
+  font-weight:900;
+  font-size:4rem;
+  padding-bottom:0rem;
+}
+
+h2 {
+  font-weight:900;
+  font-size:1.8em;
+}
+
+span {
+  color:#ffbe00;
+}
+
+.dark {
+  color:#fff;
+  background-color: #192B37;
+}
+
+.banner,
+.small-banner {
+  text-align:center;
+  line-height: 1;
+  padding-bottom:0rem;
+}
+
+.banner {
+  color:#fff;
+}
+
+.banner h2 {
+  font-weight:400;
+  font-size:2em;
+}
+
+.banner span {
+  color:#ffbe00;
+}
+
+.small-banner h2 {
+  font-weight:900;
+  font-size:3.2em;
+}
+
+.small-banner p {
+  font-weight:400;
+  font-size:1.5em;
+}
+
+.small-banner span {
+  color:#fff;
+}
+
+footer h2 {
+  font-weight:900;
+  font-size:3em;
+  line-height: 1;
+}
+
+
+
+/*----------- Banners & Background Images -----------*/
+
+.banner  {
+  background-image: url('images/banner.jpg');
+  background-size:cover;
+  min-height:100vh;
+  padding:35vh;
+  background-position: center;
+}
+
+.bg-pug,
+.bg-bed {
+  background-size:cover;
+  min-height:100vh;
+  background-position: center;
+  min-height: 30vh;
+}
+
+.bg-pug {
+background-image: url('images/pug.jpg');
+}
+
+.bg-bed {
+  background-image: url('images/bed.jpg');
+}
+
+.small-banner {
+  background-image: url('images/small-banner.jpg');
+  background-size:cover;
+  background-position: center;
+  min-height: 80vh;
+}
+
+
+
+/*----------- Testimonial Section -----------*/
+
+.quote {
+  text-align:center;
+  font-weight:300;
+  padding:10% 5% 10% 5%;
+}
+
+.quote p {
+  font-size:1.8em;
+}
+
+.quote-mark {
+  font-size:6em;
+  color: #95989A;
+}
+
+.author {
+  font-size:1.2em;
+  color: #A0A0A0;
+  text-align:right;
+}
+
+
+/*----------- Footer -----------*/
+
+
+
+
+/*----------- Contact Form -----------*/
